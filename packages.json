@@ -1,26 +1,26 @@
 [
   {
     "package": "blockrand2",
-    "url": "https://api.github.com/repos/hsonne/blockrand2"
+    "url": "https://github.com/hsonne/blockrand2"
   },
   {
     "package": "findblobs",
-    "url": "https://api.github.com/repos/hsonne/findblobs"
+    "url": "https://github.com/hsonne/findblobs"
   },
   {
     "package": "magickx",
-    "url": "https://api.github.com/repos/hsonne/magickx"
+    "url": "https://github.com/hsonne/magickx"
   },
   {
     "package": "odbc32",
-    "url": "https://api.github.com/repos/hsonne/odbc32"
+    "url": "https://github.com/hsonne/odbc32"
   },
   {
     "package": "pathlist",
-    "url": "https://api.github.com/repos/hsonne/pathlist"
+    "url": "https://github.com/hsonne/pathlist"
   },
   {
     "package": "swmmr",
-    "url": "https://api.github.com/repos/hsonne/swmmr"
+    "url": "https://github.com/hsonne/swmmr"
   }
 ]

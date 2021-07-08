@@ -21,7 +21,7 @@ meta <- all_meta[! keys %in% c(
 
 name_url <- lapply(meta, function(x) {
   get <- kwb.utils::createAccessor(x)
-  list(package = get("name"), url = get("url"))
+  list(package = get("name"), url = get("html_url"))
 })
 
 jsonlite::write_json(name_url, "packages.json", pretty = TRUE, auto_unbox = TRUE)
