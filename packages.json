@@ -21,6 +21,7 @@
   },
   {
     "package": "swmmr",
-    "url": "https://github.com/hsonne/swmmr"
+    "url": "https://github.com/hsonne/swmmr",
+    "branch": "mydev"
   }
 ]
