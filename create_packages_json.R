@@ -24,11 +24,6 @@ name_url <- lapply(meta, function(x) {
   list(package = get("name"), url = get("html_url"))
 })
 
-names(name_url) <- sapply(name_url, kwb.utils::selectElements, "package")
-
-# Do some manual changes
-name_url$swmmr$branch <- "mydev"
-
 jsonlite::write_json(
-  unname(name_url), "packages.json", pretty = TRUE, auto_unbox = TRUE
+  name_url, "packages.json", pretty = TRUE, auto_unbox = TRUE
 )
